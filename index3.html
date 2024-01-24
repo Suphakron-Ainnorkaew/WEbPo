@@ -11,17 +11,19 @@
 <body>
     <div class="tabmenu">
         <h2 class="head">กฎหมายต่อต้านทุจริต &ทดพ.</h2>
-
-        <a href="index.html"><p class="text1">หน้าหลัก</p></a>
-        <a href="http://"><p class="text1">บทความ</p></a>
-        <a href="http://"><p class="text1">เกี่ยวกับเรา</p></a>
-        <a href="http://"><p class="text1">ติดต่อ</p></a>
-
-        <i class="fa-brands fa-twitch" style="color: #fe2b06;"></i>
-        <i class="fa-brands fa-facebook" style="color: #ff4733;"></i>
-        <i class="fa-brands fa-github" style="color: #ff2b06;"></i>
-    </div>
-    <div class="text">
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <div class="menu-items">
+            <a href="index.html"><p class="text1">หน้าหลัก</p></a>
+            <a href="manu.html"><p class="text1">บทความ</p></a>
+            <a href="manu.html"><p class="text1">เกี่ยวกับเรา</p></a>
+            <a href="manu.html"><p class="text1">ติดต่อ</p></a>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-twitch" style="color: #fe2b06;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ff4733;"></i>
+            <i class="fa-brands fa-github" style="color: #ff2b06;"></i>
+        </div>
+    </div>    <div class="text">
         <h2>กฎหมายที่เกี่ยวข้องกับการขัดกันระหว่างประโยชน์ส่วนบุคคลกับประโยชน์ส่วนรวม (กม. ป.ป.ช. มาตรา 126 และมาตรา 127) พร้อมบทลงโทษ!</h2>
         <h3>ตอนที่ 1 ที่มาของ กฎหมาย ป.ป.ช. มาตรา 126 และมาตรา 127</h3>
         <p>
@@ -62,8 +64,8 @@
                 <br></div>
             <br>
             <div class="tti">
-                <img src="https://www.nacc.go.th/files/article/gallery/2705282/ed68b9392be63f755dae1b36be5bdb0d.jpg" alt="">
-                <img src="https://www.nacc.go.th/files/article/gallery/2705282/7a81b177becae34bf39bcdc87b2fea95.jpg" alt="">
+                <img src="https://www.nacc.go.th/files/article/gallery/2705282/ed68b9392be63f755dae1b36be5bdb0d.jpg" alt=""><br>
+                <img src="https://www.nacc.go.th/files/article/gallery/2705282/7a81b177becae34bf39bcdc87b2fea95.jpg" alt=""><br>
                 <img src="https://www.nacc.go.th/files/article/gallery/2705282/e07c3d0365a3857df464a8e96c5b3714.jpg" alt="">
             </div>
             <br>
@@ -73,4 +75,11 @@
                 <button class="btn-96"><span>ไปต่อ!</span></button>
             </div>
 </body>
+<script>
+    // Add this JavaScript to toggle the menu items on click
+  document.getElementById('menu-icon').addEventListener('click', function () {
+      document.querySelector('.menu-items').classList.toggle('show');
+  });
+  
+  </script>
 </html>

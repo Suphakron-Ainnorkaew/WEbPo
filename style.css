@@ -166,3 +166,87 @@
     blinkCursor 0.5s step-end infinite alternate;
   margin-top: 1.5em;
 }
+@media only screen and (max-width: 768px) {
+  .tabmenu {
+    padding: 15px 8%; /* Adjusted padding for smaller screens */
+
+  }
+
+  .tabmenu .head {
+    margin-left: 1vh;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    width: 40%;
+  }
+
+  .text1 {
+    gap: 1vh;
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  .logo {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .tabmenu i {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .tabmenu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .home {
+    padding: 80px 8% 0; /* Adjusted padding for smaller screens */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .home-content h1 {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-content h3 {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-content p {
+    font-size: 8px;
+    margin: 0 0 10px; /* Adjusted margin for smaller screens */
+  }
+
+  .btn {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  /* Add this CSS for the menu icon and hidden menu items */
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    background-color: #eaeaea;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .menu-items a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu-items.show {
+    display: flex;
+  }
+}

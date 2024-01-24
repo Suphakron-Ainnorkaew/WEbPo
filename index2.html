@@ -11,16 +11,20 @@
 <body>
     <div class="tabmenu">
         <h2 class="head">กฎหมายต่อต้านทุจริต &ทดพ.</h2>
-
-        <a href="index.html"><p class="text1">หน้าหลัก</p></a>
-        <a href="http://"><p class="text1">บทความ</p></a>
-        <a href="http://"><p class="text1">เกี่ยวกับเรา</p></a>
-        <a href="http://"><p class="text1">ติดต่อ</p></a>
-
-        <i class="fa-brands fa-twitch" style="color: #fe2b06;"></i>
-        <i class="fa-brands fa-facebook" style="color: #ff4733;"></i>
-        <i class="fa-brands fa-github" style="color: #ff2b06;"></i>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <div class="menu-items">
+            <a href="index.html"><p class="text1">หน้าหลัก</p></a>
+            <a href="manu.html"><p class="text1">บทความ</p></a>
+            <a href="manu.html"><p class="text1">เกี่ยวกับเรา</p></a>
+            <a href="manu.html"><p class="text1">ติดต่อ</p></a>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-twitch" style="color: #fe2b06;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ff4733;"></i>
+            <i class="fa-brands fa-github" style="color: #ff2b06;"></i>
+        </div>
     </div>
+
     <div class="text">
         <h2>กฎหมายว่าด้วยการป้องกันและปราบปรามการทุจริตและประพฤติมิชอบ</h2>
         <h3>ตอนที่ 1 ที่มาของ “กฎหมายป้องกันการฟ้องคดีปิดปาก (Anti-SLAPP Law)”</h3>
@@ -78,4 +82,11 @@
                     <a href="index3.html"><button class="btn-96"><span>ไปต่อ!</span></button></a>
                 </div>
 </body>
+<script>
+    // Add this JavaScript to toggle the menu items on click
+  document.getElementById('menu-icon').addEventListener('click', function () {
+      document.querySelector('.menu-items').classList.toggle('show');
+  });
+  
+  </script>
 </html>

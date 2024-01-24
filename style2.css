@@ -245,5 +245,88 @@ body{
     margin: auto;
     padding: 2vh;
 }
-  
+
+@media only screen and (max-width: 768px) {
+  .tabmenu {
+    padding: 15px 8%; /* Adjusted padding for smaller screens */
+
+  }
+
+  .tabmenu .head {
+    margin-left: 1vh;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    width: 40%;
+  }
+
+  .text1 {
+    gap: 1vh;
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  .logo {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .tabmenu i {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .tabmenu a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    background-color: #eaeaea;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .menu-items a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu-items.show {
+    display: flex;
+  }
+  .text{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.text img{
+    margin: auto;
+    width: 70%;
+    height: 40vh;
+}
+
+.tti{
+    display: block;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.tti img{
+    width: 80%;
+    height: 40vh;
+}
+}
   
